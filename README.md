@@ -15,7 +15,7 @@ This is a simple web app that allows users to search for meals using TheMealDB A
 
 ## Demo
 
-[Watch the demo video](link_to_your_youtube_video)
+[Live](https://zippy-biscuit-6f7cd5.netlify.app/)
 
 ## Screenshots
 
