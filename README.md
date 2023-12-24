@@ -80,4 +80,4 @@ The Meal App successfully implements the specified features, adheres to coding s
 - Explore additional features like user authentication for personalized favorites.
 - Enhance the user interface and add more engaging visuals.
 
-**Note:** Please replace placeholders such as `yourusername` and `link_to_video` with actual values specific to your project.
+
