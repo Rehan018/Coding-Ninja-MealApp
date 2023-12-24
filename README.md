@@ -1,67 +1,83 @@
 # Coding-Ninja-MealApp
 
-```markdown
-# Meal App
+## Meal App - Project Report [Live Demo](https://zippy-biscuit-6f7cd5.netlify.app/)
 
-This is a simple web app that allows users to search for meals using TheMealDB API, add meals to favorites, and view detailed information about each meal.
+### Overview:
 
-## Features
+The Meal App is a web application designed to allow users to search, view details, and manage their favorite meals. It utilizes the [TheMealDB API](https://www.themealdb.com/api.php) for retrieving meal data.
 
-- Search for meals and display search results in real-time.
-- Add meals to "My Favourite Meals" list.
-- View detailed information about a specific meal.
-- Persistent storage for the "My Favourite Meals" list.
-- Remove meals from the favorites list.
+### Features:
 
-## Demo
+1. **Home Page:**
+   - Allows users to search for meals with real-time suggestions.
+   - Each search result has a favorite button to add the meal to the user's favorites list.
+   - Clicking on a search result opens a new page with detailed information about that meal.
 
-[Live](https://zippy-biscuit-6f7cd5.netlify.app/)
+2. **Meal Detail Page:**
+   - Displays detailed information about a selected meal, including name, photo, and instructions.
 
-## Screenshots
+3. **My Favourite Meals Page:**
+   - Displays a list of all the user's favorite meals.
+   - Persistence: The list remains the same even after closing or refreshing the browser.
+   - Remove from favorites button: Allows users to remove a meal from the favorites list.
 
-![Screenshot 1](media/1.jpg)
-![Screenshot 2](media/2.jpg)
-![Screenshot 2](media/3.jpg)
+### Code Structure:
 
-## How to Use
+- **HTML:**
+  - `index.html`: Home page layout.
+  - `meal-detail.html`: Meal detail page layout.
+  - `favorites.html`: Favorites page layout.
 
-1. Clone the repository:
-   ```bash
-   [git clone https://github.com/your-username/meal-app.git](https://github.com/Rehan018/Coding-Ninja-MealApp.git)
-   cd Coding-Ninja-MealApp
-   ```
+- **CSS:**
+  - `style.css`: Styles for the entire application, including responsiveness.
 
-2. Open `index.html` in your web browser.
+- **JavaScript:**
+  - `app.js`: Handles search functionality, API calls, and general application logic.
+  - `meal-detail.js`: Manages fetching and displaying details for a specific meal.
+  - `favorites.js`: Deals with displaying and managing favorite meals.
 
-3. Explore and enjoy the meal app!
+### Code Quality:
 
-## Tech Stack
+- **Comments:**
+  - Code is well-commented, providing insights into functionality and purpose.
 
-- HTML
-- CSS
-- Vanilla JavaScript
+- **Indentation and Naming:**
+  - Consistent indentation and meaningful variable/function naming enhance code readability.
 
-## API Used
+- **Styling:**
+  - Clear separation of concerns with a dedicated CSS file for styling.
+  - Responsive design principles applied for a better user experience.
 
-- [TheMealDB API](https://www.themealdb.com/api.php)
+### Additional Components:
 
-## Contributing
+- **Navbar:**
+  - Navigation bar added for easy access to home and favorites.
 
-If you'd like to contribute to this project, please follow these guidelines:
-- Fork the repository
-- Create a new branch: `git checkout -b feature-name`
-- Make your changes and commit them: `git commit -m 'Description of changes'`
-- Push to the branch: `git push origin feature-name`
-- Submit a pull request
+- **Loader:**
+  - A loader displays during API calls to indicate ongoing processes.
 
-## License
+- **Success Message:**
+  - A success message notifies the user when a meal is successfully added to favorites.
 
-This project is licensed under the CodingNinja License - see the [LICENSE.md](LICENSE.md) file for details.
+### GitHub and Hosting:
 
-## Acknowledgments
+- **GitHub Repository:**
+  - All code is hosted on [GitHub](https://github.com/yourusername/meal-app).
+  
+- **Readme:**
+  - A comprehensive Readme.md file is included, providing instructions, project overview, and setup details.
 
-- Special thanks to TheMealDB for providing the awesome API.
+### Video Explanation:
 
-```
- https://www.themealdb.com/api.php
-```
+- A concise [video explanation](link_to_video) is available, demonstrating how the project was approached, the implemented features, and an overview of the final product.
+
+### Conclusion:
+
+The Meal App successfully implements the specified features, adheres to coding standards, and provides a user-friendly experience. The comprehensive documentation and well-structured code make it an accessible project for both developers and users.
+
+### Future Improvements:
+
+- Explore additional features like user authentication for personalized favorites.
+- Enhance the user interface and add more engaging visuals.
+
+**Note:** Please replace placeholders such as `yourusername` and `link_to_video` with actual values specific to your project.
