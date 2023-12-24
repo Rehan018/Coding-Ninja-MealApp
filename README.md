@@ -19,8 +19,9 @@ This is a simple web app that allows users to search for meals using TheMealDB A
 
 ## Screenshots
 
-![Screenshot 1](link_to_screenshot_1)
-![Screenshot 2](link_to_screenshot_2)
+![Screenshot 1](media/1.jpg)
+![Screenshot 2](media/2.jpg)
+![Screenshot 2](media/3.jpg)
 
 ## How to Use
 
