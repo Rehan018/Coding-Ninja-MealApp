@@ -27,8 +27,8 @@ This is a simple web app that allows users to search for meals using TheMealDB A
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/meal-app.git
-   cd meal-app
+   [git clone https://github.com/your-username/meal-app.git](https://github.com/Rehan018/Coding-Ninja-MealApp.git)
+   cd Coding-Ninja-MealApp
    ```
 
 2. Open `index.html` in your web browser.
