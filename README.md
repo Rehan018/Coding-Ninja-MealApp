@@ -62,4 +62,5 @@ This project is licensed under the CodingNinja License - see the [LICENSE.md](LI
 - Special thanks to TheMealDB for providing the awesome API.
 
 ```
-
+ https://www.themealdb.com/api.php
+```
