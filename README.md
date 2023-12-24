@@ -62,7 +62,7 @@ The Meal App is a web application designed to allow users to search, view detail
 ### GitHub and Hosting:
 
 - **GitHub Repository:**
-  - All code is hosted on [GitHub](https://github.com/yourusername/meal-app).
+  - All code is hosted on [GitHub](https://github.com/Rehan018/Coding-Ninja-MealApp.git).
   
 - **Readme:**
   - A comprehensive Readme.md file is included, providing instructions, project overview, and setup details.
