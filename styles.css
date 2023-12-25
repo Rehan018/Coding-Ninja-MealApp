@@ -48,11 +48,18 @@ nav a {
 .meal-card,
 .favorite-card,
 .meal-detail-card {
-    width: calc(30% - 10px); /* Updated width to include margin */
+    width: calc(30% - 10px);
     margin-bottom: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out; /* Added transition for smooth hover effect */
+}
+
+.meal-card:hover,
+.favorite-card:hover,
+.meal-detail-card:hover {
+    transform: scale(1.05); /* Increased size on hover for a slight zoom effect */
 }
 
 .meal-card img,
@@ -68,7 +75,7 @@ nav a {
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 
 .meal-card button,
